@@ -1,6 +1,6 @@
 - Para la fase 1, se debe hacer lo mismo que en la practica 0?, es decir, 
 descargar una imagen de apache y lanzar un contenedor, 
-o construir una imagen basada en apache
+o construir una imagen basada en apache. Y que versión de apache
 
 - Debemos de crear un .yml para las 2 marcas como en la practica 0
 
