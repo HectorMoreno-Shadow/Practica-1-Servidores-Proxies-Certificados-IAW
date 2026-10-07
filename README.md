@@ -2,11 +2,11 @@
 
 ## Dominios ficticios elegidos
 
-### Marca 1: "marca1.practica"
+### Marca 1: "marca1_i.practica"
 
 - **Justificación del nombre:** Utilizo la extensión "practica" para describir de que es una prueba.
 
-### Marca 2: "marca2.practica"
+### Marca 2: "marca2_p.practica"
 
 - **Justificación del nombre:** Utilizo la extensión "practica" para describir de que es una prueba.
 
