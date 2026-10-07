@@ -25,7 +25,7 @@
 
 `CustomLog "logs/default_access.log" combined` -> Archivo donde se registrarán las visitas y accesos con éxito/fracaso, usando ***combined***, que incluye todos los datos: IP del cliente, fecha/hora, etc.
 
-## Archivo - marca1.conf
+## Archivo - marca1.conf y marca2.conf
 
 ```
 <VirtualHost *:80>
@@ -39,6 +39,21 @@
 
     ErrorLog "logs/marca1_error.log"
     CustomLog "logs/marca1_access.log" combined
+</VirtualHost>
+```
+
+```
+<VirtualHost *:80>
+    ServerName marca2-p.practica
+    DocumentRoot "/usr/local/apache2/htdocs/marca2"
+
+    <Directory "/usr/local/apache2/htdocs/marca2">
+        Options -Indexes +FollowSymLinks
+        Require all granted
+    </Directory>
+
+    ErrorLog "logs/marca2_error.log"
+    CustomLog "logs/marca2_access.log" combined
 </VirtualHost>
 ```
 
